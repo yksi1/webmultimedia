@@ -1,0 +1,73 @@
+*{
+    font-family: "Mulish", sans-serif;
+}
+
+body{
+    background-color: #11111a;
+    margin: 0;
+}
+
+.navbar{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    background: #151827;
+    justify-content: space-between;
+    z-index: 999;
+    text-align: center;
+}
+
+.img{
+float:left;
+width: 500px;
+}
+
+img{
+    top: -50px;
+    object-fit: cover;
+    width: 500px;
+    height: 130px;
+}
+
+.head{
+    padding-right: 500px !important;
+}
+
+.title{
+    color: #e8e6e3;
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.content{
+    padding: 300px 100px;   
+}
+
+.grid{
+    display: grid;
+    grid-row-gap: 0px;
+    grid-gap: 30px;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card{
+    background-color: #161827;
+    color: #e8e6e3;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.card .header{
+    text-align: center;
+    margin-bottom: 15px !important;
+    font-size: 33px;
+}
+
+.card .cardbody{
+    font-size: 22px;
+}
+
